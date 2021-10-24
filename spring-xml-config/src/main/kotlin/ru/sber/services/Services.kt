@@ -1,4 +1,4 @@
-package ru.sber.services
+package services
 
 class FirstService {
     override fun toString(): String {

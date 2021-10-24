@@ -1,4 +1,4 @@
-package ru.sber.anotherservices
+package anotherservices
 
 class ThirdService {
     override fun toString(): String {
