@@ -3,19 +3,22 @@ package ru.sber.services
 import org.springframework.stereotype.Component
 import org.springframework.stereotype.Service
 
+
+@Service
 class FirstService {
     override fun toString(): String {
         return "I am firstService"
     }
 }
 
+@Service
 class SecondService {
     override fun toString(): String {
         return "I am secondService"
     }
 }
 
-@Component
+@Service
 class ThirdService {
     override fun toString(): String {
         return "I am thirdService"
